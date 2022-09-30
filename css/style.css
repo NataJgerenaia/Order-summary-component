@@ -19,7 +19,7 @@
     top:20px;
     width: 450px;
     height: 697px;
-    background-color:whitesmoke;
+    background-color:white;
     box-shadow:0 40px 40px 20px rgba(13, 48, 189, 0.151826);
     border-radius: 20px;
     margin-left: 10px;
@@ -103,6 +103,7 @@ h2 {
     margin-top: 20px;
     height: 98px; 
     background-color:#f7f9ff;
+    border-radius: 11px;
 }
 .blue-button {
     display: flex;
@@ -148,12 +149,15 @@ h2 {
 .change:hover {
     color: #766cf1;
     text-decoration: none;
+    cursor: pointer ;
 }
 .blue-button:hover {
     background-color: #766cf1;
+    cursor: pointer;
 }
 .cancel:hover {
     color: #1f2e55;
+    cursor: pointer;
 }
 @media  screen and (min-width:1500px){
     .main-div {margin-top: 102px;}
