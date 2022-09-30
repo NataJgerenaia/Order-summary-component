@@ -1,0 +1,156 @@
+.container {
+    padding:48px;
+}
+.img-container {
+    position: relative;
+    width: 100%;
+}
+.filter{
+    width: 100%;
+}
+.bg-body {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-div {
+    position: absolute;
+    top:0;
+    width: 450px;
+    height: 697px;
+    background-color:whitesmoke;
+    box-shadow:0 40px 40px 20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.clear {
+    clear: both;
+}
+.girl-illu {
+    width: 450px;
+    height: 220px;
+    border-radius: 20px 20px 0px 0px;
+}
+h1 {
+    color: #1f2e55;
+    height: 37px;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    line-height: 37px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+p {
+    color: #717fa6;
+    text-align: center;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 17px;
+}
+h2 {
+    color: #1f2e55;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;   
+}
+.price {
+    color: #717fa6;
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.change {
+    color: #382ae1;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 14px;
+    line-height:18px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.icon-texts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 98px;
+}
+.blue-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #382ae1;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    width: 354px;
+    height: 50px;
+    margin-top: 32px;
+}
+.payment {
+    color: white;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    width: 150px;
+    height: 20px;
+}
+.cancel {
+    color: #717fa6;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+.change:hover {
+    color: #766cf1;
+    text-decoration: none;
+}
+.blue-button:hover {
+    background-color: #766cf1;
+}
+.cancel:hover {
+    color: #1f2e55;
+}
