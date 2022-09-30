@@ -101,7 +101,8 @@ h2 {
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-    height: 98px;
+    height: 98px; 
+    background-color:#f7f9ff;
 }
 .blue-button {
     display: flex;
