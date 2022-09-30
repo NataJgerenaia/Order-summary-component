@@ -16,7 +16,7 @@
 }
 .main-div {
     position: absolute;
-    top:0;
+    top:20px;
     width: 450px;
     height: 697px;
     background-color:whitesmoke;
@@ -153,4 +153,7 @@ h2 {
 }
 .cancel:hover {
     color: #1f2e55;
+}
+@media  screen and (min-width:1500px){
+    .main-div {margin-top: 102px;}
 }
